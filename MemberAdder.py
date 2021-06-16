@@ -44,7 +44,7 @@ app1 = Client("Sessions/"+str(alf1[4]),int(alf1[5]),str(alf1[6]),phone_number=st
 app2 = Client("Sessions/"+str(alf1[8]),int(alf1[9]),str(alf1[10]),phone_number=str(alf1[11]))
 app3 = Client("Sessions/"+str(alf1[12]),int(alf1[13]),str(alf1[14]),phone_number=str(alf1[15]))
 app4 = Client("Sessions/"+str(alf1[16]),int(alf1[17]),str(alf1[18]),phone_number=str(alf1[19]))
-#app5 = Client("Sessions/"+str(alf1[20]),int(alf1[21]),str(alf1[22]),phone_number=str(alf1[23]))
+app5 = Client("Sessions/"+str(alf1[20]),int(alf1[21]),str(alf1[22]),phone_number=str(alf1[23]))
 #app6 = Client("Sessions/"+str(alf1[24]),int(alf1[25]),str(alf1[26]),phone_number=str(alf1[27]))
 #app7 = Client("Sessions/"+str(alf1[28]),int(alf1[29]),str(alf1[30]),phone_number=str(alf1[31]))
 #app8 = Client("Sessions/"+str(alf1[32]),int(alf1[33]),str(alf1[34]),phone_number=str(alf1[35]))
@@ -107,7 +107,7 @@ app4 = Client("Sessions/"+str(alf1[16]),int(alf1[17]),str(alf1[18]),phone_number
 
 
 
-apps = [app0 ,app1 , app2 , app3, app4]
+apps = [app0 ,app1 , app2 , app3, app4,app5]
 
 for app in apps:
     app.start()
